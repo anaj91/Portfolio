@@ -1,0 +1,85 @@
+/* Background */
+
+:root {
+  --primary-color: #161616;
+  --secondary-color: #daabb5;
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1px;
+}
+
+/* Background color*/
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Button*/
+
+.btn {
+  padding: 10px 30px;
+  margin: 50px 10px;
+  border-radius: 5px;
+  color: var(--primary-color)
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/*Flex*/
+
+.flex-sideBySide {
+  display: flex;
+  align-items: center;
+}
+
+/*Footer*/
+
+.footer {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  border-top: var(--secondary-color) 3px solid;
+  height: 15vh;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  padding: 10px 20px;
+}
+
+.copyright {
+  font-size: 10px;
+  margin: 20px 0;
+}
+
+.icon {
+  color: var(--primary-color);
+}

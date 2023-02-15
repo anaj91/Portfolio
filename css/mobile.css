@@ -1,0 +1,49 @@
+.navbar {
+  flex-direction: column;
+  height: 100px;
+  padding: 0 5px;
+}
+
+.logobar {
+  padding-top: 20px;
+}
+
+/*Omeni*/
+.flex-sideBySide {
+  flex-direction: column;
+}
+
+body {
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+.content {
+  width: 100vw;
+  padding: 30px 30px;
+  justify-content: center;
+}
+
+/*Projekti*/
+
+.project {
+  height: 100px;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.project:hover {
+  transform: scale(1.2);
+}
+
+/*Kontakt*/
+
+.contacts {
+  height: 64vh;
+}
+
+#contact-page h1 {
+  margin-top: 30px;
+  font-size: 40px;
+}

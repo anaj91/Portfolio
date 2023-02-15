@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>Moj Portfolio</title>
+</head>
+
+<body id="home">
+
+  <nav class="navbar">
+    <a class="logo"> <img src="./img/Logo.png"> </a>
+    <ul>
+      <li><a href="index.html" class="current">Domov</a></li>
+      <li><a href="about.html" class="">O meni</a></li>
+      <li><a href="projects.html" class="">Moji projekti</a></li>
+      <li><a href="kontakt.html" class="">Kontakt</a></li>
+    </ul>
+  </nav>
+  <div class="typeEffect">
+    <h1>Ana Zupančič <span class="typeText text-secondary"></span></h1>
+    <h2>Dobrodošli na moji spletni strani</h2>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".typeText", {
+      strings: ["Web Developer", "UI Designer", "JavaScript Learner"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    });</script>
+</body>
+
+</html>
